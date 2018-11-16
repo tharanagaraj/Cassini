@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F762212A219E443C0021643D /* CassiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7622129219E443C0021643D /* CassiniViewController.swift */; };
 		F7963EE6219BCC6F001B4860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7963EE5219BCC6F001B4860 /* AppDelegate.swift */; };
-		F7963EE8219BCC6F001B4860 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7963EE7219BCC6F001B4860 /* ViewController.swift */; };
 		F7963EEB219BCC6F001B4860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7963EE9219BCC6F001B4860 /* Main.storyboard */; };
 		F7963EED219BCC73001B4860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7963EEC219BCC73001B4860 /* Assets.xcassets */; };
 		F7963EF0219BCC73001B4860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7963EEE219BCC73001B4860 /* LaunchScreen.storyboard */; };
+		F7963EF9219BCD37001B4860 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7963EF8219BCD37001B4860 /* ImageViewController.swift */; };
+		F7963EFB219BD9B2001B4860 /* DemoURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7963EFA219BD9B2001B4860 /* DemoURLs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F7622129219E443C0021643D /* CassiniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassiniViewController.swift; sourceTree = "<group>"; };
 		F7963EE2219BCC6F001B4860 /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7963EE5219BCC6F001B4860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F7963EE7219BCC6F001B4860 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F7963EEA219BCC6F001B4860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7963EEC219BCC73001B4860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7963EEF219BCC73001B4860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7963EF1219BCC73001B4860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7963EF8219BCD37001B4860 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = SOURCE_ROOT; };
+		F7963EFA219BD9B2001B4860 /* DemoURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoURLs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		F7963EE4219BCC6F001B4860 /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				F7963EE5219BCC6F001B4860 /* AppDelegate.swift */,
-				F7963EE7219BCC6F001B4860 /* ViewController.swift */,
+				F7963EF8219BCD37001B4860 /* ImageViewController.swift */,
+				F7963EF7219BCC99001B4860 /* Supporting Files */,
 				F7963EE9219BCC6F001B4860 /* Main.storyboard */,
-				F7963EEC219BCC73001B4860 /* Assets.xcassets */,
-				F7963EEE219BCC73001B4860 /* LaunchScreen.storyboard */,
+				F7622129219E443C0021643D /* CassiniViewController.swift */,
 				F7963EF1219BCC73001B4860 /* Info.plist */,
+				F7963EFA219BD9B2001B4860 /* DemoURLs.swift */,
 			);
 			path = Cassini;
+			sourceTree = "<group>";
+		};
+		F7963EF7219BCC99001B4860 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7963EE5219BCC6F001B4860 /* AppDelegate.swift */,
+				F7963EEC219BCC73001B4860 /* Assets.xcassets */,
+				F7963EEE219BCC73001B4860 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7963EE8219BCC6F001B4860 /* ViewController.swift in Sources */,
+				F7963EF9219BCD37001B4860 /* ImageViewController.swift in Sources */,
 				F7963EE6219BCC6F001B4860 /* AppDelegate.swift in Sources */,
+				F7963EFB219BD9B2001B4860 /* DemoURLs.swift in Sources */,
+				F762212A219E443C0021643D /* CassiniViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
